@@ -7,4 +7,8 @@
     .btn {
         @apply rounded-md bg-gray-100  text-sm text-gray-800 hover:ring-gray-200 focus:outline-none active:ring-gray-300 hover:shadow-md w-36 h-10 transition-shadow;
     }
+
+    .link{
+        @apply  cursor-pointer hover:underline;
+    }
 }

@@ -8,7 +8,7 @@ export default function HomeHeader() {
       <div className='flex gap-4 items-center'>
         <Link href='https://mail.google.com' className='hover:underline'>Gmail</Link>
         <Link href='https://image.google.com' className='hover:underline'>Images</Link>
-        <TbGridDots className='bg-transparent hover:bg-gray-200 rounded-full text-4xl' />
+        <TbGridDots className='bg-transparent cursor-pointer hover:bg-gray-200 rounded-full text-4xl' />
         <button className='bg-blue-500 text-white px-6 py-2 font-medium rounded-md hover:brightness-105 hover:shadow-md transition-shadow'>Sign in</button>
       </div>
     </header>
